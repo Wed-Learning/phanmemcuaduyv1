@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Phanmemcuaduy v1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+          .card:first-of-type {
+        margin-bottom: 1rem; 
+      }
+
+     
+      .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0; 
+      }
+
+     
+      .dropdown-menu {
+        transition: all 0.3s ease;
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      .nav-item.dropdown:hover .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+  <div class="container-md">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Thi Tin Học Trẻ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Trang Chủ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Code</a>
+            </li>
+
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Đề
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Thi Huyện</a></li>
+                <li><a class="dropdown-item" href="#">Thi Tỉnh</a></li>
+                <li><a class="dropdown-item" href="#">Thi Quốc Gia</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kiểm Tra</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="Tìm" placeholder="Tìm kiếm chủ đề" aria-label="Search"/>
+            <button class="btn btn-outline-success" type="submit">Tìm</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <div class="card">
+  <img src="https://cdn.ucode.vn/uploads/18597/blog/kzGttFlN.jpg" class="card-img-top" alt="...">
+
+  <div class="card-body ">
+    <h5 class="card-title">Tin Học Trẻ Là Gì</h5>
+    <p class="card-text">Hội thi Tin học trẻ là một sân chơi trí tuệ bổ ích dành cho học sinh yêu thích công nghệ thông tin trên toàn quốc. Đây là hoạt động thường niên do Trung ương Đoàn phối hợp với các cơ quan, ban ngành tổ chức nhằm khuyến khích tinh thần học tập, sáng tạo và ứng dụng tin học trong học sinh, sinh viên. Tham gia hội thi, các em không chỉ có cơ hội thể hiện khả năng lập trình, tư duy logic, mà còn được giao lưu, học hỏi và nuôi dưỡng niềm đam mê công nghệ – nền tảng quan trọng cho sự phát triển trong thời đại số.<p>
+    
+  </div>
+  
+  <div class="row text-center mt-4">
+  <div class="col-md-3">
+    <img src="https://cdn-icons-png.flaticon.com/512/1055/1055646.png" width="80">
+    <h5 class="mt-2">Đề Thi</h5>
+    <p>Các đề thi Tin học trẻ từ Huyện, Tỉnh đến Quốc gia, có lời giải chi tiết.</p>
+  </div>
+  <div class="col-md-3">
+    <img src="https://cdn-icons-png.flaticon.com/512/6333/6333761.png" width="80">
+    <h5 class="mt-2">Code Mẫu</h5>
+    <p>Tổng hợp các đoạn code mẫu, bài luyện tập, bài thi lập trình mẫu.</p>
+  </div>
+  <div class="col-md-3">
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="80">
+    <h5 class="mt-2">Tài Liệu</h5>
+    <p>Tài liệu ôn thi, hướng dẫn học HTML, Python, Scratch...</p>
+  </div>
+  <div class="col-md-3">
+    <img src="https://cdn-icons-png.flaticon.com/512/4211/4211763.png" width="80">
+    <h5 class="mt-2">Thành Tích</h5>
+    <p>Bảng vinh danh học sinh đạt giải trong các cuộc thi.</p>
+  </div> 
+  
+</div>
+ <a href="#" class="btn btn-primary">Đến</a>
+</div> 
+<div class="card w-75 mb-3">
+  <div class="card-body">
+    <h5 class="card-title">Các Code, Hàm Được Dùng Trong Python</h5>
+    <p class="card-text">Một Số Code Như: int(input("nhập 1 thứ gì đó")), list(map(int,input("nhập"))), for i in range(100):
+(xuống dòng) print("hello world")</p>
+    <a href="#" class="btn btn-primary">Đến Phần Code</a>
+  </div>
+</div>
+
+<div class="card w-50">
+  <div class="card-body">
+    <h5 class="card-title">Các Bài Kiểm Tra Thông Dụng</h5>
+    <p class="card-text">Các Bài Kiểm Tra Được Áp Dụng Các Code Python Có Ở Phần Code Để Ôn Tập Và Đánh Giá Bản Thân</p>
+    <a href="#" class="btn btn-primary">Kiểm Tra</a>
+  </div>
+</div>
+</div>
+<div>
+    </div>
+    
+  </body>
+</html>
+
